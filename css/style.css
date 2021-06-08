@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.col-4{
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.quality{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 96px 0 113px;
+}
+.quality-box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+    padding: 40px 25px 18px;
+}
+.quality-box:hover{
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+.quality-title{
+    font-family: "Poppins",sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    color: #170C04;
+}
+.quality-desc{
+    margin: 11px 0 24px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #170C04;
+    opacity: 0.6;
+}
+.quality-img{
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.quality-svg{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.quality-btn{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+}
+.quality-img-2{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: -30px;
+}
+.quality-svg-2{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.quality-img-3{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: -20px;
+}
+.quality-svg-3{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.populer{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.populer-box{
+    width: 555px;
+    height: 420px;
+    background: #FCF2EB;
+    border-radius: 20px;
+    position: relative;
+}
+.populer-box img{
+    position: absolute;
+    top: 71px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.populer-title{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #170C04;
+}
+.populer-desc{
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+    margin: 18px 0 25px;
+}
+.box-title{
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+    margin: 25px 0 9px;
+}
+.box-link{
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E27B3A;
+}
+
+.populer-box-bottom{
+    width: 360px;
+    height: 273px;
+    background: #FCF2EB;
+    border-radius: 10px;
+    position: relative;
+}
+.populer-img{
+    position: absolute;
+    top: -9px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.populer-img2{
+    position: absolute;
+    top: 48px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.populer-img3{
+    position: absolute;
+    top: 55px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.row-bottom{
+    padding-top: 57px;
+}
+.mauris{
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #170C04;
+    margin: 23px 0 17px;
+}
+.view{
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E27B3A;
+}
+.bootom-link{
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+    display: inline-block;
+    align-items: center;
+    margin-top: 46px;
+    border: 1px solid #E27B3A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px 29px;
+}
